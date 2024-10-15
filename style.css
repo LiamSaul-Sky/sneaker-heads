@@ -1,4 +1,6 @@
 /* Write Your CSS Below 
+
+
 Colors: 
 - rgb(243, 183, 106)
 - yellow
@@ -27,3 +29,58 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+
+#row1{
+    display: inline-block;
+    width:49%;
+    align-items: center;
+}
+
+#row2{
+    display: inline-block;
+    width: 49%;
+    align-items: center;
+}
+
+.bg{
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+    height: 100%;
+    background-size: 100%;
+}
+
+#title{
+    background: linear-gradient(#74c9f1,red);
+    color: #6d00fb;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 8px white;
+    border-radius: 0.5em;
+}
+
+#jordans-1{
+    height: 400px;
+    width: 600px;
+    display: inline-block;
+}
+#jordans-2{
+    height: 400px;
+    height: 600px;
+    display: inline-block;
+}
+
+#jordans-1-desc{
+    background:#74c9f1;
+    color: white;
+    border-radius: 0.5em;
+    border: red;
+    display: inline-block;
+}
+
+#jordans-2-desc{
+    background: red;
+    color: white;
+    border-radius: 0.5em;
+    border: #74c9f1;
+    display: inline-block;
+
+}
